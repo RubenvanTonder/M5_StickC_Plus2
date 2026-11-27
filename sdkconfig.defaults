@@ -1,0 +1,11 @@
+# Flash size for M5StickC Plus2 (ESP32-PICO-V3-02, 8MB Flash)
+CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y
+
+# Disable debug logging over UART0 so UART0 is exclusively available
+# for the UART Wi-Fi bridge binary protocol used by the simulator.
+CONFIG_ESP_CONSOLE_UART_NONE=y
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200
+CONFIG_LOG_DEFAULT_LEVEL_DEBUG=y
+CONFIG_LOG_MAXIMUM_LEVEL_DEBUG=y
+CONFIG_LOG_COLORS=y
+CONFIG_LOG_TIMESTAMP_SOURCE_RTOS=y
